@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+body{
+  background-image: linear-gradient(lightblue,rgb(216, 83, 83), lightgreen);
+  height: 738px;
+  background-repeat: no-repeat;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mystyle{
+  background-color: blue;
+  height: 75px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+a{
+  font-size: 25px;
+  font-style: italic;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+a:hover{
+  color: hotpink;
+  font-size: 28px;
+  text-decoration: none;
 }
+.myhome{
+  text-align: center;
+  padding: 20px;
+}
+.myimg{
+  width: 30px;
+  height: 30px;
+}
+.mybtn{
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 20px;
+  margin: 20px;
+  border: 5px solid lightseagreen;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.mystudent{
+  display: flex;
+  justify-content: space-between;
+}
+.mystd{
+  margin: 20px;
+}
+table{
+  background-color: white;
+  width: 650px;
+  height: 300px;
+  border-radius: 10px;
+  border: 5px solid maroon;
+  text-align: center;
+  position: absolute;
+  left: 30%;
+  top: 35%;
 }
